@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+body{
+    font-family: "Barlow",sans-serif;
+    line-height: 1.7;
+    color: #516171;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 900;
+    color: #010a12;
+}
+a{
+    color: #092032;
+    text-decoration: none;
+    transition: 0.4s ease;
+    font-weight: 500;
+}
+a:hover{
+    color: #ff4d29;
+}
+img{
+    width: 100%;
+}
+section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.bg-cover{
+    background-position: center !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+.intro{
+    margin-bottom: 40px;
+}
+.intro h6{
+    font-weight: 400;
+    color: #ff4d29;
+}
+.intro p{
+    max-width: 500px;
+    margin: auto;
+}
+/*NAVBAR*/
+.top-nav{
+    background-color: #fc3bd9;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.top-nav p{
+    margin-bottom: 0;
+    display: inline-block;
+    margin-right: 16px;
+    color: #ffffff;
+}
+.top-nav i,
+.top-nav span{
+    vertical-align: middle;
+}
+#navbarNav{
+    height: 20px;
+}
+.social-links a{
+width: 34px;
+height: 34px;
+background-color: rgba(255, 255, 255, 0.3);
+display: inline-flex;
+
+align-items: center;
+justify-content: center;
+color: #ffffff;
+font-size: 20px;
+border-radius: 100%;
+}
+.social-links a:hover{
+    background-color: #ffffff;
+    color: #bcde14;
+}
+.navbar{
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active{
+    color: #0fe20b;
+}
+.navbar-brand{
+    font-weight: 700;
+    font-size: 26px;
+    color: #092032;
+}
+.navbar-brand span{
+    color: #5d17e9;
+}
+.navbar-nav li a:hover{
+	background: #0b3245;
+    border-radius: 5%;
+}
+
+/*BTN*/
+.btn{
+    padding: 9px 24px;
+    font-weight: 500;
+}
+.btn-brand{
+    background-color: #11f0bc;
+    color: #ffffff;
+    border-color: #531306;
+}
+.btn-brand:hover{
+    color: #ffffff;
+    background-color: #9a9cef;
+}
+  /* Hero Section */
+  .hero-section {
+    height: 100vh;
+    display: flex;
+    color: #c1d5e5;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .round-image {
+    width: 400px; 
+    height: 400px; 
+    border-radius: 50%; 
+    overflow: hidden; 
+    object-fit: cover; 
+  }
+  
+  .hero-section h1,h2,h3{
+    color: #f9f7f7;
+  }
+
+    /* About Section */
+    .about-section img {
+        max-width: 100%;
+        border-radius: 10px;
+      }
+      .about-section h1,h2 {
+        color: #050404;
+    }     
+/* SERVICES */
+.services-box{
+    padding: 32px;
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+.services-box img{
+    width: 150px;
+}
+.services-box h5{
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+.services-section h1,h2 {
+    color: #050404;
+  }
+   /* Portfolio Section */
+   .portfolio-section .card {
+    transition: transform 0.3s ease;
+  }
+  
+  .portfolio-section .card:hover {
+    transform: scale(1.05);
+  }
+  .portfolio-section h1,h2 {
+    color: #050404;
+  }
+/* testimonial Section */
+#testimonials {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+ }
+ 
+ .testimonial-container {
+    display: flex;
+    gap: 20px;
+    overflow: auto; 
+ }
+ .testimonial-section h1,h2 {
+    color: #050404;
+  }
+ 
+ .testimonial {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .client-info {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+ }
+ 
+ .client-info img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+ }
+ /* Skills Section */
+ .skills-section img{
+    width: 100px;
+    height: 100px;
+ }
+  /* Contact Section */
+  .contact-section {
+    background-color: #dc21c6;
+  }
+/*FOOTER*/
+#footer{
+    padding: 80px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    background:linear-gradient(rgba(9, 32, 50, 0.8),rgba(9, 32, 50, 0.8)), url(../img/img1.jpg);
+}
+footer .navbar-brand {
+    color: #fff;
+    margin-bottom: 24px;
+    display: inline-block;
+}
+.foote-top {
+    margin-bottom: 40px;
+}
+.foote-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    padding-top: 20px;
+}
+.foote .social-links a {
+    margin-left: 5px;
+    margin: 5px;
+}
+/*FORM*/
+.form-control:focus{
+    box-shadow: none;
+    border-color: #5f4cb5 ;
+}
+ 
